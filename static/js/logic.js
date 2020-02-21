@@ -64,15 +64,3 @@ legend.onAdd = function () {
 };
 
 legend.addTo(myMap);
-
-// var info = L.control({
-//     position: "bottomright"
-//   });
-  
-//   // When the layer control is added, insert a div with the class of "legend"
-//   info.onAdd = function() {
-//     var div = L.DomUtil.create("div", "legend");
-//     return div;
-//   };
-//   // Add the info legend to the map
-//   info.addTo(myMap);
